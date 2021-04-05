@@ -11,7 +11,7 @@ module.exports = {
     ],
     proxy: {
       '/api': {
-        target: 'https://pixiviz.pwp.app/api',
+        target: 'https://api.pixiv.moe/',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '',
